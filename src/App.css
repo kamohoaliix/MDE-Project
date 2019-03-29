@@ -178,3 +178,31 @@
   cursor: pointer;
   user-select: none;
 }
+
+.Data {
+  padding: 2vw;
+}
+
+.Data > table {
+  width: 100%;
+  padding: 2vw;
+  text-align: center;
+}
+
+.Data > table > tr > td {
+  line-height: 4.5vw;
+}
+
+.Data > table > tr > td > span {
+  font-size: 2em;
+}
+
+.Data > table > tr > td > span:hover {
+  cursor: pointer;
+}
+
+.Data > table > tr > td > ul {
+  list-style: none;
+  list-style-position: inside;
+  padding: 0;
+}
