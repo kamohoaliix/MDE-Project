@@ -16,7 +16,7 @@ class Home extends Component {
         <div className="TitleContainer">
           <h1>Marine Data Exchange Insight</h1>
           <p>An insight into the massive quantity of survey data on the UK seabed.</p>
-          <p>Made available by <i>The Crown Estate</i></p>
+          <p>Made available by <i><a href="https://www.thecrownestate.co.uk/">The Crown Estate</a></i></p>
           <ul>
             <li><Link to="/summary"><span className="linkIcon"><FontAwesomeIcon icon="list" /></span><br />Summary</Link></li>
             <li><Link to="/data"><span className="linkIcon"><FontAwesomeIcon icon="database" /></span><br />Data</Link></li>

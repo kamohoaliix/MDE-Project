@@ -99,6 +99,11 @@
   font-size: 1.5em;
 }
 
+.TitleContainer > p > i > a {
+  text-decoration: none;
+  color: white;
+}
+
 .TitleContainer > ul {
   list-style: none;
 }
