@@ -20,6 +20,10 @@
   justify-content: center;
 }
 
+.is-active {
+  color: grey;
+}
+
 .NavTitle {
   flex: 2;
   padding-top: 2vh;
@@ -46,13 +50,13 @@
 }
 
 .Navigation > ul {
-  flex: 3;
+  flex: 5;
 }
 
 .Navigation > ul > li {
   list-style: none;
-  line-height: 40px;
-  font-size: 1.5em;
+  line-height: 10vh;
+  font-size: 2em;
 }
 
 .Navigation > ul > li > a {
@@ -73,19 +77,46 @@
 }
 
 .Home {
-  height: 80vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-.TitleContainer > h1 {
+.linkIcon {
   font-size: 3em;
+}
+
+.TitleContainer > h1 {
+  background: -webkit-linear-gradient(#080B53, #1F3F77);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4em;
 }
 
 .TitleContainer > p {
   font-size: 1.5em;
+}
+
+.TitleContainer > ul {
+  list-style: none;
+}
+
+.TitleContainer > ul > li {
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 4vw;
+}
+
+.TitleContainer > ul > li > a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.5s;
+}
+
+.TitleContainer > ul > li > a:hover {
+  color: grey;
 }
 
 .Summary {
@@ -93,12 +124,8 @@
   flex-direction: column;
 }
 
-.Summary > div {
-  border-radius: 10px;
-}
-
-.SubBoxes > div {
-  border-radius: 10px;
+.Summary > div > span, .SubBoxes > div > span {
+  font-size: 1.3em;
 }
 
 .MainBox {
@@ -109,6 +136,7 @@
 
 .MainBox > h2 {
   font-size: 3em;
+  text-align: center;
 }
 
 .SubBoxes {
@@ -132,4 +160,19 @@
 
 .SubBox > h3 {
   font-size: 3em;
+  text-align: center;
+}
+
+.plusQuestion {
+  font-size: 0.8em;
+}
+
+.QuestionBox {
+  padding: 1vw;
+  text-align: center;
+}
+
+.QuestionBox:hover {
+  cursor: pointer;
+  user-select: none;
 }
